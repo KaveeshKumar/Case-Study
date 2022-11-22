@@ -1,0 +1,11 @@
+server:
+  port: 8098
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://kaveeshkumar:28Mongo@cropdeal.8zc5d.mongodb.net/FarmerDetails?retryWrites=true&w=majority
+  application:
+    name: FarmerService
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
